@@ -4,7 +4,7 @@ Creating a repository which will contain info about how to use Google's colab.
 ## Reading Data
 How to read data? There are several options: 
 1. Use pandas to read data from a public url (eg github)
-   df = pd.read_csv([AmazonReviewDatasetURL](amazon_cells_labelled.txt))
+   `df = pd.read_csv([AmazonReviewDatasetURL](amazon_cells_labelled.txt))
 
 2. Upload file into Google colab VM and then reading from there
   ```
